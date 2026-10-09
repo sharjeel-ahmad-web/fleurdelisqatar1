@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cream: #FAF6F0;
+    --color-gold: #C29B38;
+    --color-charcoal: #1E252B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAF6F0;
+    color: #1E252B;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Arabic typography support */
+  [dir="rtl"] body {
+    font-family: 'Cairo', 'Amiri', system-ui, sans-serif;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-arabic {
+  font-family: 'Cairo', 'Amiri', system-ui, sans-serif;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4ECE0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C29B38;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A67C2E;
+}
+
+/* Subtle luxury animations & hover states */
+.luxury-hover-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+}
+
+.luxury-hover-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(30, 37, 43, 0.08), 0 4px 12px -2px rgba(194, 155, 56, 0.12);
+}
+
+.luxury-glow-gold {
+  box-shadow: 0 0 24px -4px rgba(194, 155, 56, 0.25);
+}
+
+

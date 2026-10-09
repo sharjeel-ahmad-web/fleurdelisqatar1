@@ -1,0 +1,6 @@
+{
+  "name": "Salon Fleur De Lis - Ezdan Mall Al Wakra",
+  "description": "Luxury beauty salon & spa at Ezdan Mall Al Wakra, Qatar. Hair coloring & treatments, Russian manicures, Skeyndor facials, lash extensions, and bridal care with authentic Qatari elegance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
